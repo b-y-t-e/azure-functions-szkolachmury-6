@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "* */15 * * * *"
+    },
+    {
+      "type": "queue",
+      "name": "$return",
+      "queueName": "queue1",
+      "connection": "szkolachmury69277_STORAGE",
+      "direction": "out"
+    }
+  ]
+}

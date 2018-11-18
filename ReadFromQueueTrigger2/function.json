@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "queue1",
+      "connection": "szkolachmury69277_STORAGE"
+    }
+  ],
+  "disabled": false
+}
